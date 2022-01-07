@@ -365,21 +365,6 @@ ul li {
   list-style: none;
 }
 
-.container-grid {
-  display: grid;
-  grid-template-areas: ". grid-content .";
-  grid-template-columns: 15px auto 15px;
-  height: 100vh;
-}
-@media (min-width: 1200px) {
-  .container-grid {
-    grid-template-columns: auto 1200px auto;
-  }
-}
-.container-grid > div {
-  grid-area: grid-content;
-}
-
 /* =============
     Typography
 ============= */
@@ -445,70 +430,6 @@ nav ul li a:link i, nav ul li a:visited i {
 /* =============
     Header
 ============= */
-header {
-  position: fixed;
-  background-color: #f8f9fa;
-  width: 100%;
-  filter: drop-shadow(2px 1px 4px rgba(0, 0, 0, 0.25));
-  top: 0;
-  left: 0;
-}
-header > div {
-  padding: 20px;
-  display: flex;
-}
-header > div aside a:link, header > div aside a:visited {
-  display: flex;
-  color: #000;
-}
-header > div aside a:link:hover, header > div aside a:link:active, header > div aside a:visited:hover, header > div aside a:visited:active {
-  color: #e76f51;
-}
-header > div aside a:link i, header > div aside a:visited i {
-  margin-right: 10px;
-}
-header > div nav {
-  margin-left: auto;
-}
-
 /* =============
     Footer
 ============= */
-#loop {
-  padding-top: 100px;
-  display: grid;
-  grid-template-columns: auto 70vw auto;
-  grid-template-areas: ". loop .";
-}
-#loop > div {
-  grid-area: loop;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-}
-#loop > div h1 {
-  font-weight: 300;
-  font-size: 3.125rem;
-}
-#loop > div ul li {
-  color: #fff;
-  background-color: #CCC;
-  padding: 15px 20px;
-  margin-bottom: 5px;
-}
-
-#bonus {
-  display: grid;
-  grid-template-rows: repeat(3, 1fr);
-  height: 100vh;
-}
-#bonus section {
-  border: 1px solid red;
-  height: 50%;
-}
-#bonus section h1 {
-  font-weight: 300;
-}
-#bonus section img {
-  height: 100%;
-}
