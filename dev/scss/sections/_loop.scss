@@ -1,0 +1,33 @@
+#loop{
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: auto 70vw auto;
+    grid-template-areas: ". loop .";
+
+    >div{
+        grid-area: loop;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+
+        section{
+         
+        }
+
+
+        h1{
+            font-weight: 300;
+            font-size: rem-calc(50);
+        }
+
+        ul{
+
+            li{
+                color: $white;
+                background-color: #CCC;
+                padding: 15px 20px;
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
