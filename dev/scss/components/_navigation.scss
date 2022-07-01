@@ -4,33 +4,9 @@
 a:link, a:visited{
     transition: 0.25s;
     text-decoration: none;
+    color:darkolivegreen;
 
     &:hover, &:active{
-
-    }
-}
-
-nav{
-    ul{
-        display: flex;
-        align-items: center;
-        height: 100%;
-
-        li{
-            margin-left: 100px;
-
-            a:link, a:visited{
-               display: flex;
-               color: $black;
-
-                &:hover, &:active{
-                    color: $red;
-                }
-
-                i{
-                    margin-right: 10px;
-                }
-            }
-        }
+        color:slategrey
     }
 }

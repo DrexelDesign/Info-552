@@ -1,0 +1,67 @@
+#top{
+    display: grid;
+    gap:36px;
+
+    @include lg{
+        grid-template-columns: 45% auto;
+    }
+    
+    
+
+    article{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @include md{
+            padding: 0 10%;
+        }
+
+        @include lg{
+            padding: 0;
+        }
+
+        >div{
+
+            #hero{
+                height: 200px;
+                width: 200px;
+                border-radius: 100%;
+                margin: 0 auto 24px;
+                background-image: url("../img/hero.png");
+                background-size: cover;
+                background-position: center;
+
+            }
+            h1{
+                font-weight: 300;
+                text-align: center;
+                font-size: rem-calc(50);
+            }
+
+            h2{
+                font-weight: 600;
+                text-align: center;
+                font-size: rem-calc(20);
+                margin-bottom: 24px;
+            }
+
+            p{
+                text-align: justify;
+                font-size: rem-calc(20);
+                line-height: rem-calc(30);
+            }
+        }
+    }
+
+    aside{
+        h1{
+            font-weight: 400;
+        }
+        p{
+            margin-bottom: 24px;
+            line-height: rem-calc(30);
+        }
+    }
+}

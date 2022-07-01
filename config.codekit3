@@ -37,54 +37,15 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/tigers\/tiger-1.jpg" : {
-      "ft" : 16384,
-      "iS" : 104566,
-      "jF" : 0,
+    "\/deploy\/img\/hero.png" : {
+      "ft" : 32768,
+      "iS" : 421355,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/tigers\/tiger-1.jpg",
+      "oAP" : "\/deploy\/img\/hero.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/tigers\/tiger-2.jpg" : {
-      "ft" : 16384,
-      "iS" : 116349,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/tigers\/tiger-2.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/tigers\/tiger-3.jpg" : {
-      "ft" : 16384,
-      "iS" : 151796,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/tigers\/tiger-3.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/tigers\/tiger-4.jpg" : {
-      "ft" : 16384,
-      "iS" : 307616,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/tigers\/tiger-4.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -108,6 +69,22 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dev\/content\/bottom.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/bottom.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/top.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/top.html",
+      "oF" : 0
+    },
     "\/dev\/global\/head.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -120,7 +97,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/global\/header.html",
       "oF" : 0
     },
@@ -296,6 +273,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/layout\/_header.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_top.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_top.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

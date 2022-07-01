@@ -15,11 +15,26 @@ ul {
     }
 }
 
+body{
+    background-color: #EFEFEF;
+}
 
-// body{
-//     display: flex;
-//     height: 100vh;
-//     width: 100%;
-//     justify-content: center;
-//     align-items: center;
-// }
+
+main{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". main .";
+    
+
+    @include xl{
+        grid-template-columns: auto 1440px auto;
+    }
+
+    >div{
+        grid-area: main;
+        background-color: #fff;
+        margin-top: 100px;
+        padding: 100px 16px;
+
+    }
+}

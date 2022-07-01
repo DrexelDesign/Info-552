@@ -365,6 +365,27 @@ ul li {
   list-style: none;
 }
 
+body {
+  background-color: #EFEFEF;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". main .";
+}
+@media (min-width: 1200px) {
+  main {
+    grid-template-columns: auto 1440px auto;
+  }
+}
+main > div {
+  grid-area: main;
+  background-color: #fff;
+  margin-top: 100px;
+  padding: 100px 16px;
+}
+
 /* =============
     Typography
 ============= */
@@ -407,24 +428,10 @@ textarea {
 a:link, a:visited {
   transition: 0.25s;
   text-decoration: none;
+  color: darkolivegreen;
 }
-nav ul {
-  display: flex;
-  align-items: center;
-  height: 100%;
-}
-nav ul li {
-  margin-left: 100px;
-}
-nav ul li a:link, nav ul li a:visited {
-  display: flex;
-  color: #000;
-}
-nav ul li a:link:hover, nav ul li a:link:active, nav ul li a:visited:hover, nav ul li a:visited:active {
-  color: #e76f51;
-}
-nav ul li a:link i, nav ul li a:visited i {
-  margin-right: 10px;
+a:link:hover, a:link:active, a:visited:hover, a:visited:active {
+  color: slategrey;
 }
 
 /* =============
@@ -433,3 +440,60 @@ nav ul li a:link i, nav ul li a:visited i {
 /* =============
     Footer
 ============= */
+#top {
+  display: grid;
+  gap: 36px;
+}
+@media (min-width: 992px) {
+  #top {
+    grid-template-columns: 45% auto;
+  }
+}
+#top article {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  #top article {
+    padding: 0 10%;
+  }
+}
+@media (min-width: 992px) {
+  #top article {
+    padding: 0;
+  }
+}
+#top article > div #hero {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  margin: 0 auto 24px;
+  background-image: url("../img/hero.png");
+  background-size: cover;
+  background-position: center;
+}
+#top article > div h1 {
+  font-weight: 300;
+  text-align: center;
+  font-size: 3.125rem;
+}
+#top article > div h2 {
+  font-weight: 600;
+  text-align: center;
+  font-size: 1.25rem;
+  margin-bottom: 24px;
+}
+#top article > div p {
+  text-align: justify;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+#top aside h1 {
+  font-weight: 400;
+}
+#top aside p {
+  margin-bottom: 24px;
+  line-height: 1.875rem;
+}
