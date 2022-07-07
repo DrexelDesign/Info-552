@@ -1,0 +1,60 @@
+#bottom{
+    aside{
+        background-image: url("../img/hero-2.jpg");
+        background-position: center;
+        height: 50vh;
+        background-size: cover;
+    }
+
+    section{
+       
+
+        @include md{
+            padding: 0 5%;
+        }
+
+        @include lg{
+            padding: 0 15%;
+        }
+
+        #intro{
+            margin-top: 48px;
+            h1{
+                font-weight: 300;
+                font-size: rem-calc(40);
+            }
+        }
+
+        div{
+            background-color: #EFEFEF;
+            padding: 16px;
+            display: inline-block;
+            margin: 24px 0;
+        }
+
+        ul{
+            
+            li:first-child{
+                list-style: none;
+                font-weight: 600;
+                margin-left: 0;
+            }
+
+            li{
+                list-style: disc;
+                margin-bottom: 16px;
+                margin-left: 24px;
+            }
+        }
+
+        #method{
+            h2{
+                margin-bottom: 8px;
+            }
+
+            p{
+                text-align: justify;
+            }
+        }
+    }
+}

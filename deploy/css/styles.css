@@ -497,3 +497,49 @@ a:link:hover, a:link:active, a:visited:hover, a:visited:active {
   margin-bottom: 24px;
   line-height: 1.875rem;
 }
+
+#bottom aside {
+  background-image: url("../img/hero-2.jpg");
+  background-position: center;
+  height: 50vh;
+  background-size: cover;
+}
+@media (min-width: 768px) {
+  #bottom section {
+    padding: 0 5%;
+  }
+}
+@media (min-width: 992px) {
+  #bottom section {
+    padding: 0 15%;
+  }
+}
+#bottom section #intro {
+  margin-top: 48px;
+}
+#bottom section #intro h1 {
+  font-weight: 300;
+  font-size: 2.5rem;
+}
+#bottom section div {
+  background-color: #EFEFEF;
+  padding: 16px;
+  display: inline-block;
+  margin: 24px 0;
+}
+#bottom section ul li:first-child {
+  list-style: none;
+  font-weight: 600;
+  margin-left: 0;
+}
+#bottom section ul li {
+  list-style: disc;
+  margin-bottom: 16px;
+  margin-left: 24px;
+}
+#bottom section #method h2 {
+  margin-bottom: 8px;
+}
+#bottom section #method p {
+  text-align: justify;
+}
