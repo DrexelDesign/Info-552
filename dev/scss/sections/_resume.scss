@@ -1,0 +1,181 @@
+#resume{
+    >div{
+        background-color: var(--white);
+
+        display: grid;
+
+        @include md{
+            grid-template-columns: 30% auto;
+            grid-template-areas: "title title"
+            "left right";
+        }
+
+        #title{
+            padding: 24px 16px;
+            display: flex;
+            align-items: center;
+            @include md{
+                grid-area: title;
+            }
+
+            h1{
+                font-weight: 300;
+                margin-right: 8px;
+            }
+
+            a{
+                display: inline-block;
+                height: 35px;
+                width: 35px;
+                border-radius: 100%;
+                background-color: var(--red);
+                color: var(--white);
+                margin-left: 8px;
+
+                &:hover, &:active{
+                    background-color: var(--black);
+                }
+
+                div{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100%;
+                }
+
+            }
+        }
+
+        #left{
+            padding: 0px 16px;
+            @include md{
+                grid-area: left;
+            }
+
+            #name{
+
+                h2{
+                    font-size: rem-calc(22);
+                    margin-bottom: 8px;
+                }
+
+                ul{
+                    li{
+                        margin-bottom: 8px;
+                    }
+
+                    a:link ,a:visited{
+                        color: var(--black);
+    
+                        i{
+                            color: var(--red);
+                            margin-right: 20px;
+                        }
+                    }
+                }
+            }
+
+            #skills{
+                margin-top: 24px;
+                margin-bottom: 24px;
+
+                h3{
+                    color: var(--red);
+                    font-weight: 600;
+                    margin-bottom: 16px;
+                }
+
+                ul{
+                    li{
+                        margin-bottom: 8px;
+                    }
+
+                    .grey{
+                        font-size: rem-calc(18);
+                        color: var(--grey);
+                        margin-top: 24px;
+                    }
+                }
+            }
+
+            #awards{
+                h3{
+                    color: var(--red);
+                    font-weight: 600;
+                    margin-bottom: 16px;
+                }
+                ul{
+                    li{
+                        margin-bottom: 8px;
+                    }
+                }
+            }
+        }
+
+        #right{
+            padding: 0px 16px;
+            @include md{
+                grid-area: right;
+            }
+
+            #experience{
+                h3{
+                    color: var(--red);
+                    font-weight: 600;
+                    margin-bottom: 16px;
+                }
+
+                ul{
+
+                    li{
+                        margin-bottom: 24px;
+                        h2{
+                            font-size: rem-calc(18);
+                            font-weight: 400;
+                            span{
+                                font-weight: 600;
+                            }
+                        }
+
+                        .timeline{
+                            font-weight: 400;
+                            font-size: rem-calc(18);
+                            color: var(--grey);
+                        }
+
+                        ul{
+                            margin-left: 36px;
+                            li{
+                                list-style: disc;
+                                margin-bottom: 8px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            #education{
+                h3{
+                    color: var(--red);
+                    font-weight: 600;
+                    margin-bottom: 16px;
+                }
+
+                ul{
+
+                    li{
+                        margin-bottom: 8px;
+                        span{
+                            font-weight: 600;
+                        }
+
+                        .grey{
+                            color: var(--grey);
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

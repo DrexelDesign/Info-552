@@ -48,10 +48,10 @@ nav{
 
     a:link, a:visited{
         font-weight: 600;
-        color: var(--orange);
+        color: var(--lightGrey);
 
         &:hover, &:active{
-            color: var(--orange);
+            color: var(--lightGrey);
         }
     }
 }

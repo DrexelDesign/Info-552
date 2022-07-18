@@ -14,3 +14,22 @@ ul {
         list-style: none;
     }
 }
+
+
+body{
+    background-color: var(--lightGrey);
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". content .";
+
+    @include xxl{
+        grid-template-columns: auto 1440px auto;
+    }
+
+    >div{
+        grid-area: content;
+    }
+}
