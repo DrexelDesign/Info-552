@@ -37,12 +37,12 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/tigers\/tiger-1.jpg" : {
+    "\/deploy\/img\/contact\/hero.jpg" : {
       "ft" : 16384,
-      "iS" : 104566,
+      "iS" : 575986,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/tigers\/tiger-1.jpg",
+      "oAP" : "\/deploy\/img\/contact\/hero.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -50,12 +50,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/tigers\/tiger-2.jpg" : {
+    "\/deploy\/img\/resume\/eric-prouzet-B3UFXwcVbc4-unsplash.jpg" : {
       "ft" : 16384,
-      "iS" : 116349,
+      "iS" : 4017324,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/tigers\/tiger-2.jpg",
+      "oAP" : "\/deploy\/img\/resume\/eric-prouzet-B3UFXwcVbc4-unsplash.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -63,25 +63,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/tigers\/tiger-3.jpg" : {
+    "\/deploy\/img\/resume\/hero.jpg" : {
       "ft" : 16384,
-      "iS" : 151796,
+      "iS" : 2321334,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/tigers\/tiger-3.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/img\/tigers\/tiger-4.jpg" : {
-      "ft" : 16384,
-      "iS" : 307616,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/tigers\/tiger-4.jpg",
+      "oAP" : "\/deploy\/img\/resume\/hero.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -360,6 +347,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/layout\/_header.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_contact.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_contact.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

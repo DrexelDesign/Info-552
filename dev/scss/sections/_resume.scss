@@ -1,3 +1,10 @@
+#resume-hero{
+    background-image: url("../img/resume/hero.jpg");
+    height: 40vh;
+    background-size: cover;
+}
+
+
 #resume{
     >div{
         background-color: var(--white);
@@ -70,6 +77,10 @@
                         i{
                             color: var(--red);
                             margin-right: 20px;
+                        }
+
+                        &:hover, &:active{
+                            color: var(--red);
                         }
                     }
                 }

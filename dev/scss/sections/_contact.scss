@@ -1,0 +1,58 @@
+#contact{
+    background-image: url('../img/contact/hero.jpg');
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    >div{
+        background-color: var(--white);
+        border-radius: 10px;
+        padding: 40px;
+
+        section{
+            h1{
+                font-weight: 300;
+                margin-bottom: 8px;
+                font-size: rem-calc(40);
+            }
+
+            a:link, a:visited{
+                // border: 1px solid red;
+                display: inline-block;
+                padding: 16px 8px;
+                background-color: var(--lightGrey);
+                color: var(--grey);
+            
+                i{
+                    margin-right: 8px;
+                }
+                &:hover, &:active{
+                    background-color: var(--red);
+                    color: var(--white);
+                }
+            }
+
+            button{
+                border: none;
+                background-color: var(--lightGrey);
+                color: var(--white);
+                padding: 16px 8px;
+                color: var(--grey);
+                transition: 0.25s;
+                cursor: pointer;
+
+                i{
+                    margin-right: 8px;
+                }
+
+                &:hover{
+                    background-color: var(--red);
+                    color: var(--white);
+                }
+            }
+        }
+    }
+}

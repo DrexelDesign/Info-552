@@ -488,6 +488,12 @@ header > div aside svg {
 /* =============
     Footer
 ============= */
+#resume-hero {
+  background-image: url("../img/resume/hero.jpg");
+  height: 40vh;
+  background-size: cover;
+}
+
 #resume > div {
   background-color: var(--white);
   display: grid;
@@ -551,6 +557,9 @@ header > div aside svg {
 #resume > div #left #name ul a:link i, #resume > div #left #name ul a:visited i {
   color: var(--red);
   margin-right: 20px;
+}
+#resume > div #left #name ul a:link:hover, #resume > div #left #name ul a:link:active, #resume > div #left #name ul a:visited:hover, #resume > div #left #name ul a:visited:active {
+  color: var(--red);
 }
 #resume > div #left #skills {
   margin-top: 24px;
@@ -626,4 +635,53 @@ header > div aside svg {
 #resume > div #right #education ul li .grey {
   color: var(--grey);
   font-weight: 400;
+}
+
+#contact {
+  background-image: url("../img/contact/hero.jpg");
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contact > div {
+  background-color: var(--white);
+  border-radius: 10px;
+  padding: 40px;
+}
+#contact > div section h1 {
+  font-weight: 300;
+  margin-bottom: 8px;
+  font-size: 2.5rem;
+}
+#contact > div section a:link, #contact > div section a:visited {
+  display: inline-block;
+  padding: 16px 8px;
+  background-color: var(--lightGrey);
+  color: var(--grey);
+}
+#contact > div section a:link i, #contact > div section a:visited i {
+  margin-right: 8px;
+}
+#contact > div section a:link:hover, #contact > div section a:link:active, #contact > div section a:visited:hover, #contact > div section a:visited:active {
+  background-color: var(--red);
+  color: var(--white);
+}
+#contact > div section button {
+  border: none;
+  background-color: var(--lightGrey);
+  color: var(--white);
+  padding: 16px 8px;
+  color: var(--grey);
+  transition: 0.25s;
+  cursor: pointer;
+}
+#contact > div section button i {
+  margin-right: 8px;
+}
+#contact > div section button:hover {
+  background-color: var(--red);
+  color: var(--white);
 }
