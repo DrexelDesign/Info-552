@@ -10,6 +10,15 @@ html {
 /* =============
     Variables
 ============= */
+:root {
+  --black: #000;
+  --white: #fff;
+  --red: #e76f51;
+  --darkGreen: #264653;
+  --green: #2a9d8f;
+  --orange: #f4a261;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -411,25 +420,50 @@ a:link, a:visited {
 nav ul {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   height: 100%;
 }
 nav ul li {
-  margin-left: 100px;
+  width: 100%;
+  height: 100%;
 }
 nav ul li a:link, nav ul li a:visited {
   display: flex;
-  color: #000;
+  align-items: center;
+  justify-content: center;
+  color: var(--black);
+  height: 100%;
+  width: 100%;
 }
 nav ul li a:link:hover, nav ul li a:link:active, nav ul li a:visited:hover, nav ul li a:visited:active {
-  color: #e76f51;
+  color: var(--red);
 }
 nav ul li a:link i, nav ul li a:visited i {
   margin-right: 10px;
 }
 
+.list-item-active a:link, .list-item-active a:visited {
+  font-weight: 600;
+  color: var(--orange);
+}
+.list-item-active a:link:hover, .list-item-active a:link:active, .list-item-active a:visited:hover, .list-item-active a:visited:active {
+  color: var(--orange);
+}
+
 /* =============
     Header
 ============= */
+header {
+  padding: 24px;
+}
+header > div {
+  display: grid;
+  grid-template-columns: 50% auto;
+}
+header > div aside svg {
+  height: 50px;
+  width: auto;
+}
 /* =============
     Footer
 ============= */

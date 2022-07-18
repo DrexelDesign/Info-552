@@ -1,3 +1,29 @@
 /* =============
     Header
 ============= */
+header{
+    padding: 24px;
+    >div{
+        display: grid;
+        grid-template-columns: 50% auto;
+        aside{
+            svg{
+                height: 50px;
+                width: auto;
+            }
+        }
+
+        nav{
+            ul{
+                li{
+                    a:link, a:visited{
+
+                        &:hover, &:active{
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
