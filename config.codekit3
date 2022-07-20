@@ -17,6 +17,14 @@
       "oAP" : "\/deploy\/about.html",
       "oF" : 0
     },
+    "\/deploy\/associations.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/associations.html",
+      "oF" : 0
+    },
     "\/deploy\/contact.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -43,6 +51,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/about\/hero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/associations\/hero.jpg" : {
+      "ft" : 16384,
+      "iS" : 226568,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/associations\/hero.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -170,8 +191,8 @@
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/associations.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/associations.html",
+      "oF" : 2
     },
     "\/dev\/contact.kit" : {
       "cB" : 0,
@@ -408,6 +429,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_about.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_associations.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_associations.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

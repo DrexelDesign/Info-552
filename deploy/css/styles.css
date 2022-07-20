@@ -798,3 +798,11 @@ footer > div section ul li a:visited img {
 #about > div p span {
   font-weight: 600;
 }
+
+#associations-hero {
+  background-image: url("../img/associations/hero.jpg");
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  margin-top: 100px;
+}
