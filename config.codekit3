@@ -37,9 +37,35 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/contact\/hero.jpg" : {
+    "\/deploy\/img\/about\/hero.jpg" : {
+      "ft" : 16384,
+      "iS" : 411471,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/about\/hero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/contact\/hero-2.jpg" : {
       "ft" : 16384,
       "iS" : 575986,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/contact\/hero-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/contact\/hero.jpg" : {
+      "ft" : 16384,
+      "iS" : 1110050,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/contact\/hero.jpg",
@@ -50,12 +76,32 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/resume\/eric-prouzet-B3UFXwcVbc4-unsplash.jpg" : {
+    "\/deploy\/img\/footer\/css.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/footer\/css.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/footer\/html.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/footer\/html.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/home\/hero.jpg" : {
       "ft" : 16384,
-      "iS" : 4017324,
+      "iS" : 665685,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/resume\/eric-prouzet-B3UFXwcVbc4-unsplash.jpg",
+      "oAP" : "\/deploy\/img\/home\/hero.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -65,7 +111,7 @@
     },
     "\/deploy\/img\/resume\/hero.jpg" : {
       "ft" : 16384,
-      "iS" : 2321334,
+      "iS" : 73580,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/resume\/hero.jpg",
@@ -119,6 +165,14 @@
       "oAP" : "\/deploy\/about.html",
       "oF" : 2
     },
+    "\/dev\/associations.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/associations.html",
+      "oF" : 0
+    },
     "\/dev\/contact.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -127,20 +181,12 @@
       "oAP" : "\/deploy\/contact.html",
       "oF" : 2
     },
-    "\/dev\/content\/bonus.kit" : {
+    "\/dev\/global\/footer.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/bonus.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/loop.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/loop.html",
+      "oA" : 1,
+      "oAP" : "\/dev\/global\/footer.html",
       "oF" : 0
     },
     "\/dev\/global\/head.kit" : {
@@ -347,6 +393,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/layout\/_header.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_about.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_about.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

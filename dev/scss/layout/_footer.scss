@@ -1,3 +1,50 @@
 /* =============
     Footer
 ============= */
+footer {
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". footer. ";
+
+    @include xxl {
+        grid-template-columns: auto 1440px auto;
+    }
+
+    >div {
+        background-color: var(--white);
+        grid-area: footer;
+        padding: 16px;
+
+        section {
+            text-align: center;
+
+            hr {
+                margin-bottom: 16px;
+            }
+
+            h2 {
+                font-weight: 300;
+                font-size: rem-calc(18);
+                margin-bottom: 8px;
+            }
+
+            ul {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                li {
+                    width: 50px;
+
+                    a:link,
+                    a:visited {
+
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

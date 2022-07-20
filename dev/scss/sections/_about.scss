@@ -1,0 +1,60 @@
+#about-hero{
+    background-image: url("../img/about/hero.jpg");
+    height: 80vh;
+    background-position: right;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    p{
+        margin: 8px 16px;
+        font-size: rem-calc(12);
+        font-weight: 600;
+        background-color: rgba(255,255,255,0.5);
+        padding: 8px;
+        border-radius: 5px;
+    }
+}
+
+
+#about{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". about .";
+
+    @include xxl {
+        grid-template-columns: auto 1440px auto;
+    }
+    
+    >div{
+        background-color: var(--white);
+        grid-area: about;
+        padding: 24px 16px;
+
+        @include md{
+            padding: 24px 10vw;
+        }
+
+        @include lg{
+            padding: 24px 15vw;
+        }
+
+        @include xxl{
+            padding: 24px 20vw;
+        }
+
+        h1{
+            font-weight: 300;
+        }
+
+        p{
+            margin-top: 24px;
+
+            span{
+                font-weight: 600;
+            }
+        }
+    
+    }
+}

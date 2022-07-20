@@ -15,6 +15,14 @@ ul {
     }
 }
 
+.footer-hidden{
+    display: none;
+}
+
+.footer-active{
+    display: block;
+}
+
 
 body{
     background-color: var(--lightGrey);

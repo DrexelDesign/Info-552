@@ -376,6 +376,14 @@ ul li {
   list-style: none;
 }
 
+.footer-hidden {
+  display: none;
+}
+
+.footer-active {
+  display: block;
+}
+
 body {
   background-color: var(--lightGrey);
 }
@@ -476,6 +484,12 @@ nav ul li a:link i, nav ul li a:visited i {
 header {
   padding: 24px;
   background-color: var(--white);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  box-sizing: border-box;
 }
 header > div {
   display: grid;
@@ -488,10 +502,51 @@ header > div aside svg {
 /* =============
     Footer
 ============= */
+footer {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". footer. ";
+}
+@media (min-width: 1440px) {
+  footer {
+    grid-template-columns: auto 1440px auto;
+  }
+}
+footer > div {
+  background-color: var(--white);
+  grid-area: footer;
+  padding: 16px;
+}
+footer > div section {
+  text-align: center;
+}
+footer > div section hr {
+  margin-bottom: 16px;
+}
+footer > div section h2 {
+  font-weight: 300;
+  font-size: 1.125rem;
+  margin-bottom: 8px;
+}
+footer > div section ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer > div section ul li {
+  width: 50px;
+}
+footer > div section ul li a:link img,
+footer > div section ul li a:visited img {
+  width: 100%;
+}
+
 #resume-hero {
   background-image: url("../img/resume/hero.jpg");
-  height: 40vh;
+  height: 50vh;
   background-size: cover;
+  background-position: bottom;
+  margin-top: 100px;
 }
 
 #resume > div {
@@ -684,4 +739,62 @@ header > div aside svg {
 #contact > div section button:hover {
   background-color: var(--red);
   color: var(--white);
+}
+
+#about-hero {
+  background-image: url("../img/about/hero.jpg");
+  height: 80vh;
+  background-position: right;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+#about-hero p {
+  margin: 8px 16px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 8px;
+  border-radius: 5px;
+}
+
+#about {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". about .";
+}
+@media (min-width: 1440px) {
+  #about {
+    grid-template-columns: auto 1440px auto;
+  }
+}
+#about > div {
+  background-color: var(--white);
+  grid-area: about;
+  padding: 24px 16px;
+}
+@media (min-width: 768px) {
+  #about > div {
+    padding: 24px 10vw;
+  }
+}
+@media (min-width: 992px) {
+  #about > div {
+    padding: 24px 15vw;
+  }
+}
+@media (min-width: 1440px) {
+  #about > div {
+    padding: 24px 20vw;
+  }
+}
+#about > div h1 {
+  font-weight: 300;
+}
+#about > div p {
+  margin-top: 24px;
+}
+#about > div p span {
+  font-weight: 600;
 }
