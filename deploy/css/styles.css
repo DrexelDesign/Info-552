@@ -848,6 +848,9 @@ footer > div section ul li a:visited img {
   margin-bottom: 24px;
   color: var(--red);
 }
+#home > div section > div h3 {
+  font-weight: 500;
+}
 #home > div section > div .home-content {
   margin-top: 24px;
   display: grid;
