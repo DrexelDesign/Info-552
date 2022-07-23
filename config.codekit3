@@ -9,6 +9,58 @@
   ],
   "creatorBuild" : "34365",
   "files" : {
+    "\/assets\/IMG_5265.JPG" : {
+      "ft" : 16384,
+      "iS" : 2085551,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/IMG_5265.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/IMG_7073.JPG" : {
+      "ft" : 16384,
+      "iS" : 5126943,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/IMG_7073.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/IMG_7231.JPG" : {
+      "ft" : 16384,
+      "iS" : 2556102,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/IMG_7231.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/assets\/IMG_9158.JPG" : {
+      "ft" : 16384,
+      "iS" : 1124040,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/IMG_9158.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/about.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -44,6 +96,32 @@
       "oAP" : "\/deploy\/css\/styles-min.css",
       "oF" : 0,
       "pg" : 0
+    },
+    "\/deploy\/img\/about\/hero-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 1509494,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/about\/hero-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/about\/hero-3.jpg" : {
+      "ft" : 16384,
+      "iS" : 6236896,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/about\/hero-3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/img\/about\/hero.jpg" : {
       "ft" : 16384,
@@ -116,6 +194,19 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/deploy\/img\/home\/hero-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 4292410,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/home\/hero-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/img\/home\/hero.jpg" : {
       "ft" : 16384,
@@ -459,6 +550,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_contact.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_home.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_home.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

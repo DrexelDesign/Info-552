@@ -5,6 +5,7 @@ footer {
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". footer. ";
+    background-color: var(--white);
 
     @include xxl {
         grid-template-columns: auto 1440px auto;

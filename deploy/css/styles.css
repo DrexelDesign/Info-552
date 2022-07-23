@@ -18,7 +18,7 @@ html {
   --green: #2a9d8f;
   --orange: #f4a261;
   --grey: #737373;
-  --lightGrey: #E0E0E0;
+  --lightGrey: #F8F8F8;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -506,6 +506,7 @@ footer {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". footer. ";
+  background-color: var(--white);
 }
 @media (min-width: 1440px) {
   footer {
@@ -805,4 +806,65 @@ footer > div section ul li a:visited img {
   background-size: cover;
   background-position: center;
   margin-top: 100px;
+}
+
+@media (min-width: 768px) {
+  #home > div {
+    display: grid;
+    grid-template-columns: 50% auto;
+  }
+}
+#home > div > aside {
+  background-image: url("../img/home/hero-2.jpg");
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+#home > div > aside > div {
+  border-radius: 100%;
+  background-color: var(--red);
+  color: var(--white);
+  height: 150px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: -75px;
+}
+#home > div section {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#home > div section > div {
+  width: 50%;
+}
+#home > div section > div h1 {
+  font-weight: 300;
+  font-size: 4.375rem;
+  margin-bottom: 24px;
+  color: var(--red);
+}
+#home > div section > div .home-content {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: 20% auto;
+}
+#home > div section > div .home-content aside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#home > div section > div .home-content aside a:link, #home > div section > div .home-content aside a:visited {
+  display: inline-block;
+  cursor: pointer;
+}
+#home > div section > div .home-content aside svg {
+  width: 40px;
+}
+#home > div section > div #philosophy {
+  margin-top: 24px;
 }

@@ -1,0 +1,76 @@
+#home {
+    >div {
+
+        @include md {
+            display: grid;
+            grid-template-columns: 50% auto;
+        }
+
+        >aside {
+            background-image: url("../img/home/hero-2.jpg");
+            height: 100vh;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+
+            >div {
+                border-radius: 100%;
+                background-color: var(--red);
+                color: var(--white);
+                height: 150px;
+                width: 150px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                margin-left: -75px;
+
+            }
+        }
+
+        section {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            >div{
+                width: 50%;
+
+                h1{
+                    font-weight: 300;
+                    font-size: rem-calc(70);
+                    margin-bottom: 24px;
+                    color: var(--red)
+                }
+
+                .home-content{
+                    margin-top: 24px;
+                    display: grid;
+                    grid-template-columns: 20% auto;
+
+                    aside{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        a:link, a:visited{
+                            display: inline-block;
+                            cursor: pointer;
+                            
+                        }
+
+                        svg{
+                            width: 40px;
+                        }
+
+                        
+                    }
+                }
+
+                #philosophy{
+                    margin-top: 24px;
+                }
+            }
+        }
+    }
+}
