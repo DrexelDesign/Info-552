@@ -77,15 +77,15 @@ nav {
     
     a:link, a:visited{
         
-        color: var(--grey);
+        color: var(--green);
 
         @include lg{
             font-weight: 600;
-            color: var(--lightGrey);
+            color: var(--green);
         }
 
         &:hover, &:active{
-            color: var(--lightGrey);
+            color: var(--green);
         }
     }
 }

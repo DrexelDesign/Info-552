@@ -502,16 +502,16 @@ nav ul li:last-child {
 }
 
 .list-item-active a:link, .list-item-active a:visited {
-  color: var(--grey);
+  color: var(--green);
 }
 @media (min-width: 992px) {
   .list-item-active a:link, .list-item-active a:visited {
     font-weight: 600;
-    color: var(--lightGrey);
+    color: var(--green);
   }
 }
 .list-item-active a:link:hover, .list-item-active a:link:active, .list-item-active a:visited:hover, .list-item-active a:visited:active {
-  color: var(--lightGrey);
+  color: var(--green);
 }
 
 /* =============
