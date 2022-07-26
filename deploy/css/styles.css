@@ -392,6 +392,17 @@ body {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". content .";
+  margin-bottom: 80px;
+}
+@media (min-width: 768px) {
+  .content {
+    margin-bottom: 115px;
+  }
+}
+@media (min-width: 992px) {
+  .content {
+    margin-bottom: 115px;
+  }
 }
 @media (min-width: 1440px) {
   .content {
@@ -415,6 +426,11 @@ body h1, body h2, body h3, body h4 {
 body p {
   margin: 0;
   padding: 0;
+}
+body .title {
+  font-weight: 300;
+  font-size: 2.1875rem;
+  margin: 24px 0;
 }
 
 /* =============
@@ -591,6 +607,11 @@ footer {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". footer. ";
   background-color: var(--white);
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0px 1px 5px var(--black);
 }
 @media (min-width: 1440px) {
   footer {
@@ -600,7 +621,12 @@ footer {
 footer > div {
   background-color: var(--white);
   grid-area: footer;
-  padding: 16px;
+  padding: 8px;
+}
+@media (min-width: 768px) {
+  footer > div {
+    padding: 16px;
+  }
 }
 footer > div section {
   text-align: center;
@@ -619,7 +645,12 @@ footer > div section ul {
   align-items: center;
 }
 footer > div section ul li {
-  width: 50px;
+  width: 30px;
+}
+@media (min-width: 768px) {
+  footer > div section ul li {
+    width: 50px;
+  }
 }
 footer > div section ul li a:link img,
 footer > div section ul li a:visited img {
@@ -779,7 +810,7 @@ footer > div section ul li a:visited img {
 
 #contact {
   background-image: url("../img/contact/hero.jpg");
-  height: 90vh;
+  height: 100vh;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -790,11 +821,6 @@ footer > div section ul li a:visited img {
   background-color: var(--white);
   border-radius: 10px;
   padding: 40px;
-}
-#contact > div section h1 {
-  font-weight: 300;
-  margin-bottom: 8px;
-  font-size: 2.5rem;
 }
 #contact > div section a:link, #contact > div section a:visited {
   display: inline-block;
@@ -844,19 +870,8 @@ footer > div section ul li a:visited img {
   border-radius: 5px;
 }
 
-#about {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". about .";
-}
-@media (min-width: 1440px) {
-  #about {
-    grid-template-columns: auto 1440px auto;
-  }
-}
 #about > div {
   background-color: var(--white);
-  grid-area: about;
   padding: 24px 16px;
 }
 @media (min-width: 768px) {
@@ -874,9 +889,6 @@ footer > div section ul li a:visited img {
     padding: 24px 20vw;
   }
 }
-#about > div h1 {
-  font-weight: 300;
-}
 #about > div p {
   margin-top: 24px;
 }
@@ -890,6 +902,80 @@ footer > div section ul li a:visited img {
   background-size: cover;
   background-position: center;
   margin-top: 100px;
+}
+
+#associations {
+  padding-bottom: 24px;
+}
+#associations > div aside ul {
+  display: grid;
+  gap: 24px;
+}
+@media (min-width: 768px) {
+  #associations > div aside ul {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "a1 a1 a2 a2" ". a3 a3 .";
+  }
+}
+@media (min-width: 992px) {
+  #associations > div aside ul {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: "a1 a2 a3";
+  }
+}
+#associations > div aside ul li {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 20% auto;
+  gap: 16px;
+  padding-bottom: 8px;
+  background-color: #fff;
+  padding: 8px;
+  box-sizing: border-box;
+}
+#associations > div aside ul li aside {
+  display: flex;
+  align-items: center;
+}
+#associations > div aside ul li aside img {
+  width: 100%;
+}
+#associations > div aside ul li section h2 {
+  font-weight: 500;
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+}
+#associations > div aside ul li section a:link, #associations > div aside ul li section a:visited {
+  display: inline-block;
+  background-color: var(--red);
+  color: var(--white);
+  padding: 8px 16px;
+  margin-top: 8px;
+  transition: 0.25s;
+}
+#associations > div aside ul li section a:link:hover, #associations > div aside ul li section a:link:active, #associations > div aside ul li section a:visited:hover, #associations > div aside ul li section a:visited:active {
+  background-color: var(--black);
+}
+#associations > div aside ul li section a:link i, #associations > div aside ul li section a:visited i {
+  font-size: 0.625rem;
+}
+@media (min-width: 768px) {
+  #associations > div aside ul li:nth-child(1) {
+    grid-area: a1;
+  }
+}
+@media (min-width: 768px) {
+  #associations > div aside ul li:nth-child(2) {
+    grid-area: a2;
+  }
+}
+#associations > div aside ul li:nth-child(3) {
+  border-bottom: none;
+}
+@media (min-width: 768px) {
+  #associations > div aside ul li:nth-child(3) {
+    grid-area: a3;
+  }
 }
 
 #home {

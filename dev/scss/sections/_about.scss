@@ -19,17 +19,17 @@
 
 
 #about{
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". about .";
+    // display: grid;
+    // grid-template-columns: 16px auto 16px;
+    // grid-template-areas: ". about .";
 
-    @include xxl {
-        grid-template-columns: auto 1440px auto;
-    }
+    // @include xxl {
+    //     grid-template-columns: auto 1440px auto;
+    // }
     
     >div{
         background-color: var(--white);
-        grid-area: about;
+        // grid-area: about;
         padding: 24px 16px;
 
         @include md{
@@ -44,9 +44,9 @@
             padding: 24px 20vw;
         }
 
-        h1{
-            font-weight: 300;
-        }
+        // h1{
+        //     font-weight: 300;
+        // }
 
         p{
             margin-top: 24px;

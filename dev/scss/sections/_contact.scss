@@ -1,6 +1,6 @@
 #contact{
     background-image: url('../img/contact/hero.jpg');
-    height: 90vh;
+    height: 100vh;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -13,11 +13,11 @@
         padding: 40px;
 
         section{
-            h1{
-                font-weight: 300;
-                margin-bottom: 8px;
-                font-size: rem-calc(40);
-            }
+            // h1{
+            //     font-weight: 300;
+            //     margin-bottom: 8px;
+            //     font-size: rem-calc(40);
+            // }
 
             a:link, a:visited{
                 // border: 1px solid red;

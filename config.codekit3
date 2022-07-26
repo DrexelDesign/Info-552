@@ -136,6 +136,29 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/associations\/aiga-logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/associations\/aiga-logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/associations\/fes-logo.png" : {
+      "ft" : 32768,
+      "iS" : 93350,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/associations\/fes-logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/associations\/hero.jpg" : {
       "ft" : 16384,
       "iS" : 226568,
@@ -148,6 +171,16 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/deploy\/img\/associations\/IxDA-logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/associations\/IxDA-logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/deploy\/img\/contact\/hero-2.jpg" : {
       "ft" : 16384,

@@ -33,6 +33,16 @@ body{
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". content .";
 
+    margin-bottom: 80px;
+
+    @include md{
+        margin-bottom: 115px;
+    }
+
+    @include lg{
+        margin-bottom: 115px;
+    }
+
     @include xxl{
         grid-template-columns: auto 1440px auto;
     }

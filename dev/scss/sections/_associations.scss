@@ -5,3 +5,97 @@
     background-position: center;
     margin-top: 100px;
 }
+
+#associations {
+    padding-bottom: 24px;
+    
+    >div{
+
+        aside{
+            ul{
+                display: grid;
+                gap: 24px;
+
+                @include md{
+                    grid-template-columns: repeat(4, 1fr);
+                    grid-template-areas: "a1 a1 a2 a2"
+                    ". a3 a3 .";
+                }
+
+                @include lg{
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-template-areas: "a1 a2 a3";
+                }
+
+                li{
+                    height: 100%;
+                    display: grid;
+                    grid-template-columns: 20% auto;
+                    gap: 16px;
+                    padding-bottom: 8px;
+                    background-color: #fff;
+                    padding: 8px;
+                    box-sizing: border-box;
+
+                    aside{
+                        display: flex;
+                        align-items: center; 
+                        
+
+                        img{
+                            width: 100%;
+                        }
+                    }                  
+
+                    section{
+
+                        h2{
+                            font-weight: 500;
+                            font-size: rem-calc(20);
+                            margin-bottom: 8px;
+                        }
+    
+                        a:link, a:visited{
+                            display: inline-block;
+                            background-color: var(--red);
+                            color: var(--white);
+                            padding: 8px 16px;
+                            margin-top: 8px;
+                            transition: 0.25s;
+                            &:hover, &:active{
+                                background-color: var(--black);
+                            }
+    
+                            i{
+                                font-size: rem-calc(10)
+                            }
+                        }
+                    }
+
+
+
+                    
+                }
+
+                li:nth-child(1){
+                    @include md{
+                        grid-area: a1;
+                    }
+                }
+
+                li:nth-child(2){
+                    @include md{
+                        grid-area: a2;
+                    }
+                }
+
+                li:nth-child(3){
+                    border-bottom: none;
+                    @include md{
+                        grid-area: a3;
+                    }
+                }
+            }
+        }
+    }
+}
