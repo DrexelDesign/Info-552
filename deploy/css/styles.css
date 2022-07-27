@@ -413,6 +413,12 @@ body {
   grid-area: content;
 }
 
+.js-email {
+  position: fixed;
+  z-index: -1;
+  opacity: 0;
+}
+
 /* =============
     Typography
 ============= */
@@ -1049,57 +1055,52 @@ footer > div section ul li a:visited img {
     margin-right: -75px;
   }
 }
-#home > div > aside > div h3 {
+#home > div > aside > div h2 {
   font-size: 0.875rem;
   font-weight: 500;
 }
-#home > div section {
+#home > div #home-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 56px;
 }
 @media (min-width: 992px) {
-  #home > div section {
+  #home > div #home-wrapper {
     padding-bottom: 0px;
   }
 }
 @media (min-width: 768px) {
-  #home > div section > div {
+  #home > div #home-wrapper > div {
     width: 70%;
   }
 }
 @media (min-width: 992px) {
-  #home > div section > div {
+  #home > div #home-wrapper > div {
     width: 50%;
   }
 }
-#home > div section > div h1 {
-  font-weight: 300;
-  font-size: 4.375rem;
-  margin-bottom: 24px;
-  color: var(--red);
-}
-#home > div section > div h3 {
+#home > div #home-wrapper > div h1 {
   font-weight: 500;
+  font-size: 1.25rem;
 }
-#home > div section > div .home-content {
+#home > div #home-wrapper > div .home-content {
   margin-top: 24px;
   display: grid;
   grid-template-columns: 20% auto;
 }
-#home > div section > div .home-content aside {
+#home > div #home-wrapper > div .home-content aside {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#home > div section > div .home-content aside a:link, #home > div section > div .home-content aside a:visited {
+#home > div #home-wrapper > div .home-content aside a:link, #home > div #home-wrapper > div .home-content aside a:visited {
   display: inline-block;
   cursor: pointer;
 }
-#home > div section > div .home-content aside svg {
+#home > div #home-wrapper > div .home-content aside svg {
   width: 40px;
 }
-#home > div section > div #philosophy {
+#home > div #home-wrapper > div #philosophy {
   margin-top: 24px;
 }

@@ -69,14 +69,14 @@
                     margin-right: -75px;
                 }
 
-                h3{
+                h2{
                     font-size: rem-calc(14);
                     font-weight: 500;
                 }
             }
         }
 
-        section {
+        #home-wrapper {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -96,14 +96,8 @@
                 }
 
                 h1{
-                    font-weight: 300;
-                    font-size: rem-calc(70);
-                    margin-bottom: 24px;
-                    color: var(--red)
-                }
-
-                h3{
                     font-weight: 500;
+                    font-size: rem-calc(20);
                 }
 
                 .home-content{
@@ -111,7 +105,6 @@
                     display: grid;
                     grid-template-columns: 20% auto;
                     
-
                     aside{
                         display: flex;
                         align-items: center;

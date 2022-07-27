@@ -7,17 +7,19 @@
     <!-- $nav-contact = list-item-active-->   
     <!-- @import "global/header.kit" -->
 
-    <section id="contact">
+    <div id="contact">
         <div>
             <section>
                 <h1 class="title">Say hello!</h1>
-                <article>
+                <div>
                     <a href="mailto:josh@gdovindesigns.com?subject=Just%20saying%20hello!"><i class="fa-solid fa-envelope"></i>open email</a>
-                    <button><i class="fa-solid fa-paste"></i>Copy to clipboard</button>
-                </article>
+                    <button id="clipboard-btn"><i class="fa-solid fa-paste"></i>Copy to clipboard</button>
+                </div>
             </section>
         </div>
-    </section>
+    </div>
+
+    <textarea class="js-email">josh@gdovindesigns.com</textarea>
 
     <!-- $footer-contact = footer-active-->   
     <!-- @import "global/footer.kit" -->

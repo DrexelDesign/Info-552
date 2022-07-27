@@ -18,7 +18,7 @@
        
     <header>
         <div>
-            <section id="burger-container">
+            <div id="burger-container">
                 <div id="burger">
                     <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45">
                           <rect id="top" x="5" y="14" width="35" height="2" rx="1" fill="#000" class="burger-lines"/>
@@ -27,9 +27,9 @@
                           <circle id="outline" cx="22.5" cy="22.5" r="21.5" stroke="#000" stroke-width="2"/>
                       </svg>
                 </div>
-            </section>
+            </div>
     
-            <section id="nav-container" data-nav="main-navigation">
+            <div id="nav-container" data-nav="main-navigation">
                 <nav>
                     <ul>
                         <li class =""><a href="about.html" >About</a></li>
@@ -39,30 +39,32 @@
                         <li class ="list-item-active"><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
-            </section>
+            </div>
     
-            <section id="logo-container">
+            <div id="logo-container">
                 <a href="index.html"> <svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 56">
                     <path d="M23.782 4s-35.863 32.728-13.367 46.2c0 0 12.344 7.908 28.194-.732 0 0 22.569-9.811-14.827-45.468Z" stroke="#333" stroke-width="4.913"/>
                     <path d="M14.506 45.441s8.837 5.93 19.355-.512c0 0 15.777-6.077-10.152-31.264 0 0-25.856 24.674-9.203 31.776Zm8.91-18.158c0-1.757 1.461-3.221 3.214-3.221s3.214 1.464 3.214 3.221c0 1.758-1.46 3.222-3.214 3.222-1.753 0-3.213-1.464-3.213-3.222Z" fill="#333"/>
                   </svg></a>
-            </section>
+            </div>
         </div>
     </header>
     
     
 
-    <section id="contact">
+    <div id="contact">
         <div>
             <section>
                 <h1 class="title">Say hello!</h1>
-                <article>
+                <div>
                     <a href="mailto:josh@gdovindesigns.com?subject=Just%20saying%20hello!"><i class="fa-solid fa-envelope"></i>open email</a>
-                    <button><i class="fa-solid fa-paste"></i>Copy to clipboard</button>
-                </article>
+                    <button id="clipboard-btn"><i class="fa-solid fa-paste"></i>Copy to clipboard</button>
+                </div>
             </section>
         </div>
-    </section>
+    </div>
+
+    <textarea class="js-email">josh@gdovindesigns.com</textarea>
 
        
     <footer>
