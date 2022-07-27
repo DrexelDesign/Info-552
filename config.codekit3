@@ -254,6 +254,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/projects\/hero.jpg" : {
+      "ft" : 16384,
+      "iS" : 549857,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/projects\/hero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/resume\/hero.jpg" : {
       "ft" : 16384,
       "iS" : 73580,
@@ -631,6 +644,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/_home.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/sections\/_projects.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/_projects.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

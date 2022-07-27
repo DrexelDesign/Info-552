@@ -1,0 +1,49 @@
+#projects-hero{
+    background-image: url("../img/projects/hero.jpg");
+    height: 50vh;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+}
+
+#projects{
+    >div{
+        section{
+            h2{
+                margin-bottom: 16px;
+                font-size: rem-calc(22);
+            }
+            ul{
+                margin-bottom: 24px;
+                li{
+                    // margin-bottom: 16px;
+                    h3{
+                        font-weight: 500;
+                    }
+                    h4{
+                        font-weight: 400;
+                    }
+                }
+            }
+
+            #hci{
+                display: grid;
+                gap: 16px;
+                grid-template-columns: repeat(2,1fr);
+
+                @include md{
+                    grid-template-columns: repeat(3,1fr);
+                }
+
+                @include lg{
+                    grid-template-columns: repeat(4,1fr);
+                }
+            }
+
+            #electives{
+                display: grid;
+                gap: 16px;
+            }
+        }
+    }
+}
