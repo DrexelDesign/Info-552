@@ -19,6 +19,7 @@ html {
   --orange: #f4a261;
   --grey: #737373;
   --lightGrey: #F8F8F8;
+  --mediumGrey: #DADADA;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -938,6 +939,7 @@ footer > div section ul li a:visited img {
   background-color: #fff;
   padding: 8px;
   box-sizing: border-box;
+  box-shadow: 0px 1px 5px var(--grey);
 }
 #associations > div aside ul li aside {
   display: flex;
@@ -1120,11 +1122,30 @@ footer > div section ul li a:visited img {
 #projects > div section ul {
   margin-bottom: 24px;
 }
+#projects > div section ul li {
+  background-color: var(--white);
+  border-radius: 5px;
+  padding: 16px;
+  box-shadow: 0px 1px 5px var(--grey);
+}
 #projects > div section ul li h3 {
   font-weight: 500;
 }
 #projects > div section ul li h4 {
   font-weight: 400;
+}
+#projects > div section ul li a:link, #projects > div section ul li a:visited {
+  color: var(--white);
+  background-color: var(--red);
+  padding: 8px 16px;
+  display: inline-block;
+  margin-top: 8px;
+}
+#projects > div section ul li a:link:hover, #projects > div section ul li a:link:active, #projects > div section ul li a:visited:hover, #projects > div section ul li a:visited:active {
+  background-color: var(--black);
+}
+#projects > div section ul li a:link i, #projects > div section ul li a:visited i {
+  margin-left: 8px;
 }
 #projects > div section #hci {
   display: grid;
@@ -1144,4 +1165,9 @@ footer > div section ul li a:visited img {
 #projects > div section #electives {
   display: grid;
   gap: 16px;
+  grid-template-columns: repeat(2, 1fr);
+}
+#projects > div section .disabled {
+  background-color: var(--mediumGrey) !important;
+  cursor: default;
 }
